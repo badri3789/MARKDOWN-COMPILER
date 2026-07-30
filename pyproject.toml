@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "markdown-compiler"
+version = "0.1.0"
+description = "CLI and library to compile Markdown to HTML using Python-Markdown"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "Markdown>=3.0",
+    "PyYAML>=5.1"
+]
